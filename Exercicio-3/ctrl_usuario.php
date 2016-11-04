@@ -1,7 +1,5 @@
 <?php
-require("../conection/db_con.php");
 
-require("../model/mdl_usuario.php");
 
 function listarDados($conexao)
 {
