@@ -1,13 +1,12 @@
-bdrTeste
 
-Questão 1 - Pasta "question1"
+Questão 1 
 
 Escreva um programa que imprima números de 1 a 100. Mas, para múltiplos de 3 imprima “Fizz” em vez do número e para múltiplos de 5 imprima “Buzz”. Para números múltiplos de ambos (3 e 5), imprima “FizzBuzz”.
 
 Solução:
 
 <?php
-require_once 'vendor/autoload.php';
+
 
 function multiplo($i = 1)
 {
@@ -97,7 +96,7 @@ function listarDados($conexao)
 }
 
 
-Tarefa 4
+Questão 4
 
 Desenvolva uma API Rest para um sistema gerenciador de tarefas (inclusão/alteração/exclusão). As tarefas consistem em título e descrição, ordenadas por prioridade. Desenvolver utilizando:
 
